@@ -98,20 +98,10 @@ nav .col-6{
     background-size: contain;
 }
 
-/* === GRID-SYSTEM (SICHTBARKEIT) === */
-.border, .border * {
-    border: 1px solid #91C4FF;
-}
-
-[class*='col-'] {
-    background-color: #BFDDFF;
-}
-
-p {
-    background-color: #91C4FF;
-    padding: 0;
-    margin: 0;
-    text-align: center;    
+/* === NEWSLETTER-BEREICH === */
+.newsletter-bereich {
+    width: 100%;
+    background-color: #3D3F45;
 }
 
 /* === GRID-SYSTEM === */
@@ -137,7 +127,8 @@ p {
 .col-1 {width:  16.666%; }
 .col-2 {width:  33.333%; }
 .col-3 {width:  50%;     }
-.col-6 {width: 100%;     }  
+.col-4 {width:  66.666%; }
+.col-6 {width:  100%;    }
 
 /*
 
@@ -157,6 +148,7 @@ p {
     .col-1 {width: 50%; }
     .col-2 {width: 100%; }
     .col-3 {width: 100%; }
+    .col-4 {width: 100%;}
     .col-6 {width: 100%; }
 }
 
@@ -164,5 +156,6 @@ p {
     .col-1 {width: 100%; }
     .col-2 {width: 100%; }
     .col-3 {width: 100%; }
+    .col-4 {width: 100%;}
     .col-6 {width: 100%; }
 }
